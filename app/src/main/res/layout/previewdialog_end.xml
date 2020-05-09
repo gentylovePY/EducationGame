@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/previewbackgraundlevel1"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/btncloseEnd"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:background="@drawable/button_stroke_black_prees_white"
+            android:gravity="center"
+            android:onClick="onClickXEnd"
+            android:text="@string/x"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/textView_description_end"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/levelone_end"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:layout_weight="100"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/buttoncontinuelevel1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="18dp"
+            android:layout_weight="25"
+            android:background="@drawable/button_background"
+            android:onClick="onClickContinuelevel1"
+            android:paddingLeft="10dp"
+
+
+            android:paddingRight="10dp"
+            android:text="@string/continuetext"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

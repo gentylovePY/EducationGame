@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EducationalGame</string>
+    <string name="Text_button_level1">Назад</string>
+    <string name="Level">Уровень:</string>
+    <string name="vstyplenie">Чтобы продолжить выберите уровень</string>
+    <string name="levelone">Выберите цыфру, которая больше.\n\nДля завершения игры вам надо набрать 20 очков.</string>
+    <string name="leveltwo">Выберите римскую цыфру, которая больше.\n\nДля завершения игры вам надо набрать 20 очков.</string>
+    <string name="levelone_end">"Вы прошли 1 уровень,\nПоздравляем!\n\nНажмите продолжить, чтобы перейти на следущий уровень"</string>
+    <string name="leveltwo_end">"Вы прошли 2 уровень,\nПоздравляем!\n\nНажмите продолжить, чтобы перейти на следущий уровень"</string>
+    <string name="continuetext">Продолжить</string>
+    <string name="x">X</string>
+    <string name="level1">Уровень: 1</string>
+    <string name="level2">Уровень: 2</string>
+</resources>

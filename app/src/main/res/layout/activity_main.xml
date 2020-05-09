@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/backgraund_level1"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/container3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@color/sosowhite"
+                    android:textSize="30sp"
+                    android:text="@string/vstyplenie"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/container4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/line1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView_activitymain1"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:onClick="onClickButtonMain1"
+                            android:text="1"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain2"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:onClick="onClickButtonMain2"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain3"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="3"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain4"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="4"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain5"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="5"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/line2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView_activitymain6"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="6"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain7"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="7"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain8"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="8"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain9"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="9"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain10"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="10"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/line3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView_activitymai11"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="11"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain12"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="12"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain13"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="13"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain14"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="14"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain15"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="15"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/line4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView_activitymain16"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="16"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain17"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="17"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain18"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="18"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain19"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="19"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView_activitymain20"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_level1"
+                            android:gravity="center"
+                            android:text="20"
+                            android:textSize="28sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

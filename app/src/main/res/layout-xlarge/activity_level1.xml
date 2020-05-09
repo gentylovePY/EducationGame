@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".level1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/backgraund_level1" />
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_style_white_blue"
+                    android:onClick="onClickBack"
+                    android:paddingLeft="11dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/Text_button_level1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/textViewLevels"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Level"
+                    android:textSize="43sp"
+                    android:textColor="@color/White"
+                    android:gravity="right"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/point1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+                <TextView
+                    android:id="@+id/point20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/style_points"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_img_uneversal"
+                    android:scaleType="centerCrop"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@drawable/fon" />
+
+                <ImageView
+                    android:id="@+id/img_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/style_img_uneversal"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/fon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                   android:textSize="42sp"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/text_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="42sp"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:text="TextView"
+                    android:textColor="@color/White"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
